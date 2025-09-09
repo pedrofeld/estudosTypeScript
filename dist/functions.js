@@ -17,3 +17,8 @@ function greet() {
     console.log("Olá! Bem-vindo ao TypeScript.");
 }
 greet();
+console.log("-----");
+let funcAdd = (num1, num2) => num1 + num2;
+let funcSub = (num1, num2) => num1 - num2;
+console.log(funcAdd(10, 5));
+console.log(funcSub(10, 5));

@@ -22,3 +22,14 @@ function greet(): void {
 }
 
 greet();
+
+console.log("-----");
+
+type calculator = (x: number, y: number) => number;
+
+let funcAdd: calculator = (num1: number, num2: number): number => num1 + num2;
+
+let funcSub: calculator = (num1: number, num2: number): number => num1 - num2;
+
+console.log(funcAdd(10, 5));
+console.log(funcSub(10, 5));
